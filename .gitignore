@@ -28,7 +28,7 @@ npm-debug.log.*
 .sass-cache/
 
 ######################
-# Eclipse
+# Eclipse            #
 ######################
 *.pydevproject
 .project

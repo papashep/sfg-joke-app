@@ -9,5 +9,4 @@ class JokeappApplicationTests {
     @Test
     void contextLoads () {
     }
-
 }

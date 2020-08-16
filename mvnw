@@ -110,6 +110,7 @@ if $cygwin; then
 fi
 
 # For Mingw, ensure paths are in UNIX format before anything is touched
+
 if $mingw; then
   [ -n "$M2_HOME" ] &&
     M2_HOME="$( (
