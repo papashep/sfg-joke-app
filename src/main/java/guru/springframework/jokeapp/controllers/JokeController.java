@@ -23,7 +23,7 @@ public class JokeController {
     @RequestMapping({"/",""})       // This will map out the context root for us.
     public String showJoke(Model model) {
 
-        model.addAttribute ("joke",jokeService.getJoke ());  // A ramdom joke from the joke string
+        model.addAttribute ("joke",jokeService.getJoke ());  // A random joke from the joke string
 
         return "chucknorris";   // View name
 
